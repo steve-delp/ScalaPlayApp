@@ -12,7 +12,7 @@ import scala.util.{Failure, Success, Try}
 class HomeController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
     def index() = Action {
-        Ok("Hello, World!")
+        Ok("Hello, World!!!")
     }
 
   }
